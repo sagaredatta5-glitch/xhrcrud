@@ -10,53 +10,58 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <div class="container mt-3">
-        <div class="row">
-            <div class="col-md-6 offset-3">
-                <form id="postForm" class="mb-5 p-3 bg-white rounded-sm">
-                    <div class="form-group">
-                        <label for="title">Title</label>
-                        <input type="text" class="form-control" id="title">
-                    </div>
-                    <div class="form-group">
-                        <label for="content">content</label>
-                        <textarea rows="4" type="text" class="form-control" id="content"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="userId">UserId</label>
-                        <select class="form-control" id="userId">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            
-                        </select>
-                    </div>
-                    <button id="addPostSubmit" type="submit" class="btn btn-sm btn-block btn-outline-primary">Add Post</button>
-                    <button id="updatePostSubmit" type="button" class="btn btn-sm btn-block btn-outline-primary d-none">Update Post</button>
-                </form>
+   <div class="container mt-4">
+    <div class="row">
+        <div class="col-md-6 offset-3">
+            <form id="postForm" class="mb-3 p-3 bg-white rounded-sm">
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <input type="text" class="form-control" id="title">
+                </div>
+                <div class="form-group">
+                    <label for="content">Content</label>
+                    <textarea type="text" class="form-control" id="content"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="userId">UserId</label>
+                    <select class="form-control" id="userId">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <button type="submit" id="addpostbtn" class="btn btn-sm btn-block btn-outline-primary">Add Post</button>
+                <button type="button" id="updatepostbtn" class="btn btn-sm btn-block btn-outline-primary d-none">Update Post</button>
+            </form>
 
-                <div id="postcontainer" class="d-flex flex-column-reverse">
-                    <div class="card mb-3 shadow rounded">
-                        <div class="card-header">
-                            <h3 class="m-0">Title</h3>
-                        </div>
-                        <div class="card-body">
-                            <p class="m-0">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quidem harum error eum animi, adipisci asperiores
-                                 perspiciatis perferendis. Suscipit dolorum at molestias blanditiis vel, dolor esse ad alias error architecto.
-                            </p>
-                        </div>
-                        <div class="card-footer d-flex justify-content-between">
-                            <button class="btn btn-sm btn-outline-primary">Edit</button>
-                            <button class="btn btn-sm btn-outline-danger">Remove</button>
-                        </div>
+            <div id="postcontaner" class="d-flex flex-column-reverse">
+                <div class="card mb-3 shadow rounded">
+                    <div class="card-header">
+                        <h3 class="m-0">Title</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="m-0">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae molestias voluptatum distinctio 
+                            saepe quo iste aliquam sequi quibusdam. Corporis iste fugiat magni neque temporibus dolorem? Odio quos culpa repudiandae in.
+                        </p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <button class="btn btn-sm btn-outline-primary">Edit</button>
+                        <button class="btn btn-sm btn-outline-danger">Remove</button>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
+   </div>
    
 
 
